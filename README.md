@@ -4,7 +4,7 @@ git add file #将file添加进入缓存中
 git commit   # 将所有缓存中的文件加入库中 git commit -m "title" 参数-m 后面加入说明
 git status  #命令查看结果 可以掌握仓库的当前状态
 git diff file   #查看未加入缓存，工作区中文件的修改状态
-git log   #查看历史记录  git log --preety=oneline
+git log   #查看历史记录  git log --pretty=oneline
 git reset --hard commit_id #版本回退 HEAD^ HEAD^^ 或者将缓存区修改退回到工作区
 git reflog   #命令历史记录
 git checkout -- file   #丢弃工作区修改
